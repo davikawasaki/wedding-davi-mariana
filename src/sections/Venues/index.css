@@ -1,0 +1,29 @@
+section.venue {
+    margin: 0 auto;
+}
+
+section.venue h2 {
+    font-family: 'AngellaWhite', 'Marcellus', serif;
+}
+
+.venue-card-title h3:after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.venue-map {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    left: 0;
+    top: 5rem;
+    background-color: #000;
+}

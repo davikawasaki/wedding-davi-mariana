@@ -1,0 +1,59 @@
+section.about-us {
+    margin: 0 auto;
+}
+
+section.about-us h2 {
+    font-family: 'AngellaWhite', 'Marcellus', serif;
+}
+
+.bride-image:after {
+    top: -3rem;
+    left: 3rem;
+    background-image: url('https://jd.exsythemes.com/img/happy-couple/bride.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bride-underscore:after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.groom-image:after {
+    top: -3rem;
+    right: 3rem;
+    background: url('https://jd.exsythemes.com/img/happy-couple/groom.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.groom-underscore:after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}

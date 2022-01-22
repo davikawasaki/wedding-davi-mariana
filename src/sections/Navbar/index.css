@@ -1,0 +1,10 @@
+ul.menu li {
+    opacity: 1;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+ul.menu:hover li:not(:hover) {
+    opacity: 0.5;
+}
