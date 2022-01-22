@@ -19,7 +19,7 @@ function Venues() {
               <span className="mr-20 font-bold uppercase">Onde</span>
               <span className="">Empório Loft - Rua Paraíba, 533 - Jardim Higienopolis, Londrina - PR, 86020-090</span>
             </div>
-            <a href="" className="block mt-12 text-center">Ver rota</a>
+            <a href="#" className="block mt-12 text-center">Ver rota</a>
           </div>
         </div>
         <div className="venue-map absolute">
