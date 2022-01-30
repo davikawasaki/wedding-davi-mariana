@@ -1,0 +1,16 @@
+section.rsvp {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+section.rsvp h2 {
+    font-family: 'AngellaWhite', 'Marcellus', serif;
+}
+
+section.rsvp .left-block {
+    width: 40%;
+    background-image: url('https://jd.exsythemes.com/img/feedback-section/background.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,31 @@
+footer span {
+    font-family: 'AngellaWhite', 'Marcellus', serif;
+}
+
+footer, footer > div {
+    margin: 0 auto;
+}
+
+footer > div {
+    left: 25%;
+}
+
+footer:before {
+    content: "";
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+    white-space: nowrap;
+    background-color: rgb(255 237 213);
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 15vh;
+}
+
+div#footer-image:before {
+    content: "01/07/2022";
+    position: absolute;
+    top: -30%;
+    left: 30%;
+}
