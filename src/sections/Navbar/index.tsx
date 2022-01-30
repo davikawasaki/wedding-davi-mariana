@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './index.css';
 
 function Navbar() {
-  const [offset, setOffset] = useState("")
+  const [offset, setOffset] = useState("0")
 
   useEffect(() => {
     const onScroll = () => setOffset(window.pageYOffset.toString());
