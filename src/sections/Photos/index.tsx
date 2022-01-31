@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import './index.css'
 
-export default () => {
+function Photos() {
   return (
     <section className="photos w-full relative pt-10 pb-10 block" id="photos">
         <h2 className="mb-12 capitalize text-9xl text-center">Nossas Fotos</h2>
@@ -16,16 +16,16 @@ export default () => {
             onSwiper={(swiper) => console.log(swiper)}
             >
             <SwiperSlide>
-                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding photo" />
+                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding photo" />
+                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding photo" />
+                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding photo" />
+                <img src="https://jd.exsythemes.com/img/photo-slider/3-big.jpg" alt="Our wedding" />
             </SwiperSlide>
         </Swiper>
         <div className="w-100 flex text-center align-center">
@@ -39,3 +39,5 @@ export default () => {
     </section>
   );
 }
+
+export default Photos;
