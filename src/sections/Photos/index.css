@@ -21,7 +21,6 @@ section.photos:before {
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
-    height: 2rem;
 }
 
 .previous {

@@ -4,10 +4,10 @@ import './index.css';
 
 function Venues() {
   return (
-    <section className="venue block pt-40 w-11/12 px-32 text-right" id="venue">
-      <h2 className="mb-20 text-9xl text-center">Local do Evento</h2>
-      <div className="flex mb-10 justify-center">
-        <div className="venue-card px-10 py-10 w-5/12 border-8 border-orange-800">
+    <section className="venue block pt-24 md:pt-32 w-11/12 px-5 lg:px-12 whitespace-normal break-words text-right" id="venue">
+      <h2 className="mb-20 text-6xl sm:text-9xl text-center">Local do Evento</h2>
+      <div className="flex flex-wrap mb-10 justify-center">
+        <div className="venue-card px-10 py-10 w-full lg:w-5/12 border-8 border-orange-800">
           <div className="venue-card-title relative pb-8 mb-8">
             <h3 className="font-bold text-3xl uppercase">Cerimônia e jantar</h3>
           </div>
@@ -23,7 +23,7 @@ function Venues() {
             <a href="https://google.com" className="block mt-12 text-center">Ver rota</a>
           </div>
         </div>
-        <div className="venue-map top-10">
+        <div className="venue-map top-10 w-full h-80 lg:h-auto lg:w-7/12 overflow-hidden">
           <Map />
         </div>
       </div>
