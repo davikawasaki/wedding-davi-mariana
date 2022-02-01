@@ -15,7 +15,7 @@ function App() {
       <Photos />
       <Venues />
       <RSVP />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
