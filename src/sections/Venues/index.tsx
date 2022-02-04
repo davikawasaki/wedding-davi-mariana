@@ -9,16 +9,16 @@ function Venues() {
       <div className="flex flex-wrap mb-10 justify-center">
         <div className="venue-card px-10 py-10 w-full lg:w-5/12 border-8 border-orange-800">
           <div className="venue-card-title relative pb-8 mb-8">
-            <h3 className="font-bold text-3xl uppercase">Cerimônia e jantar</h3>
+            <h3 className="font-bold text-xl sm:text-3xl uppercase">Cerimônia e jantar</h3>
           </div>
           <div className="venue-card-info">
-            <div className="venue-card-block flex mb-10 text-xl">
-              <span className="mr-20 font-bold uppercase">Quando</span>
-              <span className="text-right">19:00, 1 de Julho de 2022</span>
+            <div className="venue-card-block flex mb-10 text-sm sm:text-xl flex flex-wrap justify-between">
+              <p className="mr-10 font-bold uppercase">Quando</p>
+              <p className="text-right">19:00, 1 de Julho de 2022</p>
             </div>
-            <div className="venue-card-block flex text-xl">
-              <span className="mr-20 font-bold uppercase">Onde</span>
-              <span className="text-right">Empório Loft - Rua Paraíba, 533 - Jardim Higienopolis, Londrina - PR, 86020-090</span>
+            <div className="venue-card-block flex text-sm sm:text-xl flex flex-wrap justify-between">
+              <p className="mr-10 font-bold uppercase">Onde</p>
+              <p className="text-right">Empório Loft - Rua Paraíba, 533 - Jardim Higienopolis, Londrina - PR, 86020-090</p>
             </div>
             <a href="https://google.com" className="block mt-12 text-center">Ver rota</a>
           </div>
