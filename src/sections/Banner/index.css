@@ -1,11 +1,15 @@
 .bg-image-main {
     height: 80vh;
-    background-color: linear-gradient(rgba(97, 88, 105, 0.35), rgba(97, 88, 105, 0.35));
-    background-image: url('https://jd.exsythemes.com/img/banner-section/section-background.jpg');
+    /* background-color: linear-gradient(rgba(97, 88, 105, 0.35), rgba(97, 88, 105, 0.35)); */
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* filter: grayscale(); */
+}
+
+.bg-image-main > div {
+    filter: none
 }
