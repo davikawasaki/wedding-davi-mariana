@@ -3,6 +3,7 @@ import './App.css';
 import AboutUs from './sections/AboutUs';
 import Banner from './sections/Banner/index';
 import Footer from './sections/Footer';
+import LoveHistory from './sections/LoveHistory';
 import Photos from './sections/Photos';
 import RSVP from './sections/RSVP';
 import Venues from './sections/Venues';
@@ -32,6 +33,7 @@ function App() {
     <div>
       <Banner />
       <AboutUs />
+      <LoveHistory />
       <Photos />
       <Venues />
       <RSVP />

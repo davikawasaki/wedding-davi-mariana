@@ -1,17 +1,17 @@
-section.photos h2 {
+section.love-history h2 {
     font-family: 'AngellaWhite', 'Marcellus', serif;
 }
 
-/* section.photos:before {
+section.love-history:before {
     content: "";
     position: absolute;
     z-index: -1;
     top: 0;
-    right: 0;
+    left: 0;
     width: 50%;
     height: 100%;
     background-color: rgb(255 237 213);
-} */
+}
 
 .slick-arrow {
     border: none;
@@ -29,4 +29,17 @@ section.photos h2 {
 
 .next {
     background-image: url('https://jd.exsythemes.com/img/slider/arrow-right.svg');
+}
+
+.title-underscore:after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    /* -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); */
 }

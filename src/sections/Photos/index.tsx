@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SlidePrevButton from './SlidePrevButton';
-import SlideNextButton from './SlideNextButton';
+import { SlidePrevButton, SlideNextButton } from './SlidesButton'
 
 // Import Swiper styles
 import 'swiper/css'

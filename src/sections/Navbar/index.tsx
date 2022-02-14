@@ -25,9 +25,9 @@ function Navbar() {
           <li className="inline-block px-4 sm:px-12">
             <a href="#about-us">Sobre nós</a>
           </li>
-          {/* <li className="inline-block px-4 sm:px-12">
-            <a href="#love-story">História de Amor</a>
-          </li> */}
+          <li className="inline-block px-4 sm:px-12">
+            <a href="#love-history">História de Amor</a>
+          </li>
           <li className="inline-block px-4 sm:px-12">
             <a href="#photos">Fotos</a>
           </li>
