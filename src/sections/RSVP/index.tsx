@@ -4,7 +4,12 @@ import './index.css';
 function RSVP() {
   return (
     <section className="rsvp w-full bg-orange-100 text-left flex flex-wrap whitespace-normal break-words items-stretch" id="rsvp">
-      <div className="left-block w-4/12 hidden sm:block"></div>
+      <div className="left-block w-4/12 hidden sm:block"
+        style={{
+          background: `#fff url('${process.env.PUBLIC_URL}/emporio.jpeg') no-repeat left center`,
+          backgroundSize: 'cover'
+        }}>
+      </div>
       <div className="py-32 px-10 md:pl-32 w-full md:w-6/12 text-center md:text-left">
         <h2 className="mb-12 text-6xl sm:text-8x">Confirme sua presença</h2>
         <div className="flex flex-wrap pb-4 items-center justify-center md:justify-start justify-items-center md:justify-items-start">
