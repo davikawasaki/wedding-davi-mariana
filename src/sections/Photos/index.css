@@ -30,3 +30,7 @@ section.photos h2 {
 .next {
     background-image: url('https://jd.exsythemes.com/img/slider/arrow-right.svg');
 }
+
+.swiper-wrapper {
+    align-items: center;
+}
