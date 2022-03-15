@@ -32,7 +32,7 @@ function AboutUs() {
             <p className="mb-2">I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.</p>
         </div>
         <div className="groom-image mr-2 mb-4 w-full h-full md:w-4/12 border-8 border-orange-800">
-          <img className="w-full" src="https://jd.exsythemes.com/img/happy-couple/groom.jpg" alt="Davi groom" />
+          <img className="w-full" src="/davi.jpg" alt="Davi groom" />
         </div>
       </div>
     </section>
