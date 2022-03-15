@@ -1,0 +1,15 @@
+section.support {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+section.support h2 {
+    font-family: 'AngellaWhite', 'Marcellus', serif;
+}
+
+section.support .left-block {
+    width: 40%;
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

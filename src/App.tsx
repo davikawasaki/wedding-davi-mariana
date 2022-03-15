@@ -6,6 +6,7 @@ import Footer from './sections/Footer';
 import LoveHistory from './sections/LoveHistory';
 import Photos from './sections/Photos';
 import RSVP from './sections/RSVP';
+import Support from './sections/Support';
 import Venues from './sections/Venues';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Photos />
       <Venues />
       <RSVP />
+      <Support />
       <Footer />
       {showButton && (
         <button onClick={scrollToTop} className="fixed bottom-9 right-9 py-4 px-5 cursor-pointer bg-neutral-100 rounded-full text-3xl z-10 drop-shadow-md hover:opacity-75">
