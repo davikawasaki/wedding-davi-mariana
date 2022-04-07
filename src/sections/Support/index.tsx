@@ -3,12 +3,33 @@ import './index.css';
 
 function Support() {
   return (
-    <section className="support w-full text-left flex flex-wrap whitespace-normal break-words items-stretch" id="support">
-      <div className="py-32 px-10 md:pl-32 w-full md:w-6/12 text-center md:text-left">
-        <h2 className="mb-12 text-6xl sm:text-8x">Nossa lista de presentes</h2>
-        <div className="flex flex-wrap pb-4 items-center justify-center md:justify-start justify-items-center md:justify-items-start">
-          <p className="w-10/12">Além da lista de presentes, os presentes podem ser enviados por Pix.</p>
-          <img className="w-2/12 md:w-11/12 lg:w-6/12 h-full" src="/qrcode-pix.png" alt="QR Code Pix" />
+    <section className="support block w-full text-center whitespace-normal break-words text-lg" id="support">
+      <h2 className="px-4 mb-12 normal-case text-8xl sm:text-7xl text-center">Nossa Lista de Presentes</h2>
+      <div className="px-10 w-full flex flex-wrap text-center">
+        <div className="py-4 w-full md:w-1/2 text-center grid place-content-center">
+          <p>Lista disponível no site casar.com:</p>
+          <a className="grid justify-items-center" href="https://noivos.casar.com/marianalimaedavikawasaki" target="_blank" rel="noopener noreferrer">
+            <img className="w-full md:w-1/2" src="/casarpontocom.png" alt="Logo Casar Ponto Com" />
+          </a>
+        </div>
+        <div className="py-4 w-full md:w-1/2 text-center grid place-content-center">
+          <p>Contribuições por pix podem ser enviadas diretamente pelo QR code abaixo:</p>
+          <div className="w-full grid justify-items-center">
+            <img className="w-full md:w-1/3" src="/qrcode-pix.png" alt="QR Code Pix" />
+          </div>
+        </div>
+      </div>
+      <h3 className="mt-8">Contribuições internacionais:</h3>
+      <div className="px-10 mt-8 w-full flex flex-wrap text-center">
+        <div className="px-4 w-full md:w-1/2 text-center grid place-content-center md:place-content-end">
+          <strong>USD</strong>
+          <p>SWIFT: FRNAUS44</p>
+          <p>ABA/ACH: 084106768</p>
+        </div>
+        <div className="px-4 w-full md:w-1/2 text-center grid place-content-center md:place-content-start">
+          <strong>EUR</strong>
+          <p>BIC: TRWIBEB1XXX</p>
+          <p>IBAN: BE80 9670 1355 2377</p>
         </div>
       </div>
     </section>
