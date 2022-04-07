@@ -4,7 +4,7 @@ import './index.css';
 function Support() {
   return (
     <section className="support block w-full text-center whitespace-normal break-words text-lg" id="support">
-      <h2 className="px-4 mb-12 normal-case text-8xl sm:text-7xl text-center">Nossa Lista de Presentes</h2>
+      <h2 className="px-8 mb-12 normal-case text-8xl sm:text-7xl text-center">Nossa Lista de Presentes</h2>
       <div className="px-10 w-full flex flex-wrap text-center">
         <div className="py-4 w-full md:w-1/2 text-center grid place-content-center">
           <p>Lista disponível no site casar.com:</p>

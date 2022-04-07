@@ -57,3 +57,17 @@ section.about-us h2 {
     -ms-transform: translateX(50%);
     transform: translateX(50%);
 }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .groom-underscore:after {
+        -webkit-transform: translateX(20%);
+        -ms-transform: translateX(20%);
+        transform: translateX(20%);
+    }
+
+    .bride-underscore:after {
+        -webkit-transform: translateX(-20%);
+        -ms-transform: translateX(-20%);
+        transform: translateX(-20%);
+    }
+}
