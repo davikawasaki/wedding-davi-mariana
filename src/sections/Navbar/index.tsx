@@ -23,7 +23,7 @@ function Navbar() {
             <a href="#start">Início</a>
           </li>
           <li className="inline-block px-4 sm:px-12">
-            <a href="#about-us">Sobre nós</a>
+            <a href="#about-us">O Casal</a>
           </li>
           <li className="inline-block px-4 sm:px-12">
             <a href="#love-history">História de Amor</a>
