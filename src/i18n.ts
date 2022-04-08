@@ -133,9 +133,9 @@ i18n
                     support: {
                         title: 'Our gifts list',
                         list: 'List available at the website casar.com (only in Portuguese):',
-                        pix: 'Contributions using pix can be sent directly through the QR code below (brazilian transfers only):',
+                        pix: 'Gifs can be sent using pix directly through the QR code below (brazilian transfers only):',
                         international: {
-                            title: 'International contributions:'
+                            title: 'International accounts to send gifts:'
                         }
                     },
                     footer: {
@@ -259,9 +259,9 @@ i18n
                     support: {
                         title: 'Nossa Lista de Presentes',
                         list: 'Lista disponível no site casar.com:',
-                        pix: 'Contribuições por pix podem ser enviadas diretamente pelo QR code abaixo:',
+                        pix: 'Presentes por pix podem ser enviados diretamente pelo QR code abaixo:',
                         international: {
-                            title: 'Contribuições internacionais:'
+                            title: 'Contas internacionais para envio de presentes:'
                         }
                     },
                     footer: {
