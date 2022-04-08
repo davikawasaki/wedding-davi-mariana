@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { intervalToDuration } from 'date-fns'
+import { useTranslation } from 'react-i18next';
 import './index.css'
 
 function Countdown() {
@@ -33,6 +34,7 @@ function Countdown() {
   }
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+  const { t } = useTranslation()
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -44,27 +46,27 @@ function Countdown() {
 
   return (
     <div className="banner-countdown absolute w-7/12 mt-16 text-white text-center p-4 sm:p-7 bg-orange-800 capitalize whitespace-normal">
-      <p className="text-lg sm:text-xl text-center capitalize break-words mb-2 sm:mb-5">Quanto tempo até o grande dia?</p>
+      <p className="text-lg sm:text-xl text-center capitalize break-words mb-2 sm:mb-5">{t('countdown.title')}</p>
       <div className="flex flex-wrap items-center justify-center">
         <div className="countdown-item border-b-2 sm:border-2 border-white px-1 py-2 sm:px-2 sm:py-4">
             <span className="font-bold text-sm sm:text-xl block text-center">{ (timeLeft?.months < 10 ? `0${timeLeft?.months}` : timeLeft?.months) || "00" }</span>
-            <span className="block text-sm text-center">meses</span>
+            <span className="block text-sm text-center">{t('countdown.months')}</span>
         </div>
         <div className="countdown-item border-b-2 sm:border-2 border-white px-1 py-2 sm:px-2 sm:py-4">
             <span className="font-bold text-sm sm:text-xl block text-center">{ (timeLeft?.days < 10 ? `0${timeLeft?.days}` : timeLeft?.days) || "00" }</span>
-            <span className="block text-sm text-center">dias</span>
+            <span className="block text-sm text-center">{t('countdown.days')}</span>
         </div>
         <div className="countdown-item border-b-2 sm:border-2 border-white px-1 py-2 sm:px-2 sm:py-4">
             <span className="font-bold text-sm sm:text-xl block text-center">{ (timeLeft?.hours < 10 ? `0${timeLeft?.hours}` : timeLeft?.hours) || "00" }</span>
-            <span className="block text-sm text-center">horas</span>
+            <span className="block text-sm text-center">{t('countdown.hours')}</span>
         </div>
         <div className="countdown-item border-b-2 sm:border-2 border-white px-1 py-2 sm:px-2 sm:py-4">
             <span className="font-bold text-sm sm:text-xl block text-center">{ (timeLeft?.minutes < 10 ? `0${timeLeft?.minutes}` : timeLeft?.minutes) || "00" }</span>
-            <span className="block text-sm text-center">minutos</span>
+            <span className="block text-sm text-center">{t('countdown.minutes')}</span>
         </div>
         <div className="countdown-item border-b-2 sm:border-2 border-white px-1 py-2 sm:px-2 sm:py-4">
             <span className="font-bold text-sm sm:text-xl block text-center">{ (timeLeft?.seconds < 10 ? `0${timeLeft?.seconds}` : timeLeft?.seconds) || "00" }</span>
-            <span className="block text-sm text-center">segundos</span>
+            <span className="block text-sm text-center">{t('countdown.seconds')}</span>
         </div>
       </div>
     </div>

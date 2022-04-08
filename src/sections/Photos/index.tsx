@@ -1,14 +1,17 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { SlidePrevButton, SlideNextButton } from './SlidesButton'
+import { useTranslation } from 'react-i18next'
 
 // Import Swiper styles
 import 'swiper/css'
 import './index.css'
 
 function Photos() {
+    const { t } = useTranslation()
+
     return (
         <section className="photos w-full relative pt-10 pb-10 block whitespace-normal break-words" id="photos">
-            <h2 className="mb-12 capitalize text-6xl sm:text-9xl text-center">Nossas Fotos</h2>
+            <h2 className="mb-12 capitalize text-6xl sm:text-9xl text-center">{t('photos.title')}</h2>
             <Swiper
                 className="h-4/5 sm:h-full"
                 breakpoints={{

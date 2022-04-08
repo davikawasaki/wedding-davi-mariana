@@ -1,7 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import './index.css';
 
 function Footer() {
+  const { t } = useTranslation()
+
   return (
     <div>
       <footer className="w-full relative text-orange-800 mt-24">
@@ -10,7 +14,7 @@ function Footer() {
           <div id="footer-image" className="relative hidden md:block">
             <img className="align-middle w-full border-none" src="/footer.jpg" alt="Couple footer" />
           </div>
-          <span className="block md:hidden text-5xl lg:text-7xl relative ml-2 md:ml-10">e</span>
+          <span className="block md:hidden text-5xl lg:text-7xl relative ml-2 md:ml-10">{t('footer.separator')}</span>
           <span className="block text-5xl lg:text-7xl relative ml-2 md:ml-10">Davi</span>
         </div>
       </footer>

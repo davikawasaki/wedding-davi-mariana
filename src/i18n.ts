@@ -31,7 +31,7 @@ i18n
                         title: 'Mariana and Davi'
                     },
                     countdown: {
-                        title: 'Countdown to the wedding cerimony',
+                        title: 'Countdown to the wedding ceremony',
                         months: 'months',
                         days: 'days',
                         hours: 'hours',
@@ -40,25 +40,13 @@ i18n
                     },
                     aboutUs: {
                         title: 'The Couple',
-                        bridge: {
+                        bride: {
                             title: 'Mariana Lima',
-                            subtitle: 'the bridge',
-                            text: [
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.'
-                            ]
+                            subtitle: 'the bride'
                         },
                         groom: {
                             title: 'Davi Kawasaki',
-                            subtitle: 'the groom',
-                            text: [
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.'
-                            ]
+                            subtitle: 'the groom'
                         }
                     },
                     loveStory: {
@@ -120,10 +108,42 @@ i18n
                                 ]
                             }
                         }
+                    },
+                    photos: {
+                        title: 'Our Photos'
+                    },
+                    venue: {
+                        title: 'Venue Location',
+                        subtitle: 'Ceremony and reception',
+                        when: {
+                            title: 'When',
+                            subtitle: '2022 July 1st, 6pm'
+                        },
+                        where: {
+                            title: 'Where',
+                            subtitle: 'Empório Loft - 533 Street Paraíba - Jardim Higienópolis, Londrina - PR, 86020-090',
+                            route: 'Check route'
+                        }
+                    },
+                    rsvp: {
+                        title: 'RSVP',
+                        subtitle: 'We are eagerly waiting for you! RSVP through Whatsapp with our consultancy:',
+                        wpp: 'https://api.whatsapp.com/send/?phone=5543999753000&text=I%27d%20like%20to%20RSVP%20at%20Mariana%27s%20and%20Davi%27s%20wedding%2E&app_absent=0'
+                    },
+                    support: {
+                        title: 'Our gifts list',
+                        list: 'List available at the website casar.com (only in Portuguese):',
+                        pix: 'Contributions using pix can be sent directly through the QR code below (brazilian transfers only):',
+                        international: {
+                            title: 'International contributions:'
+                        }
+                    },
+                    footer: {
+                        separator: 'and'
                     }
                 }
             },
-            'pt-br': {
+            'pt-BR': {
                 translation: {
                     navbar: {
                         home: 'Início',
@@ -146,25 +166,13 @@ i18n
                     },
                     aboutUs: {
                         title: 'O Casal',
-                        bridge: {
+                        bride: {
                             title: 'Mariana Lima',
-                            subtitle: 'a noiva',
-                            text: [
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.'
-                            ]
+                            subtitle: 'a noiva'
                         },
                         groom: {
                             title: 'Davi Kawasaki',
-                            subtitle: 'o noivo',
-                            text: [
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.',
-                                'I bumped into Diana again 7 years later in a club, she had literally just returned from a holiday and was out celebrating her birthday. I was back from sea for 4 days before I left again for a few months. The probability that this would happen is crazy and to top it all off, she remembered my name.'
-                            ]
+                            subtitle: 'o noivo'
                         }
                     },
                     loveStory: {
@@ -226,6 +234,38 @@ i18n
                                 ]
                             }
                         }
+                    },
+                    photos: {
+                        title: 'Nossas Fotos'
+                    },
+                    venue: {
+                        title: 'Local do Evento',
+                        subtitle: 'Cerimônia e Recepção',
+                        when: {
+                            title: 'Quando',
+                            subtitle: '1 de Julho de 2022, 18:00'
+                        },
+                        where: {
+                            title: 'Onde',
+                            subtitle: 'Empório Loft - Rua Paraíba 533 - Jardim Higienópolis, Londrina - PR, 86020-090',
+                            route: 'Ver rota'
+                        }
+                    },
+                    rsvp: {
+                        title: 'Confirme sua presença',
+                        subtitle: 'Esperamos ansiosamente por vocês! Confirme pelo Whatsapp com a nossa assessoria:',
+                        wpp: 'https://api.whatsapp.com/send/?phone=5543999753000&text=Ol%C3%A1%2C+gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+da+Mariana+e+Davi%2E&app_absent=0'
+                    },
+                    support: {
+                        title: 'Nossa Lista de Presentes',
+                        list: 'Lista disponível no site casar.com:',
+                        pix: 'Contribuições por pix podem ser enviadas diretamente pelo QR code abaixo:',
+                        international: {
+                            title: 'Contribuições internacionais:'
+                        }
+                    },
+                    footer: {
+                        separator: 'e'
                     }
                 }
             }
