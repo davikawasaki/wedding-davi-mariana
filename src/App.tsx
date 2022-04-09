@@ -5,7 +5,7 @@ import Banner from './sections/Banner/index';
 import Footer from './sections/Footer';
 import LoveHistory from './sections/LoveHistory';
 import Photos from './sections/Photos';
-import RSVP from './sections/RSVP';
+// import RSVP from './sections/RSVP';
 import Support from './sections/Support';
 import Venues from './sections/Venues';
 
