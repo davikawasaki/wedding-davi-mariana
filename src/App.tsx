@@ -37,7 +37,6 @@ function App() {
       <LoveHistory />
       <Photos />
       <Venues />
-      <RSVP />
       <Support />
       <Footer />
       {showButton && (
