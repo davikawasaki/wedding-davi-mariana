@@ -133,7 +133,7 @@ i18n
                     support: {
                         title: 'Our gifts list',
                         list: 'List available at the website casar.com (only in Portuguese):',
-                        pix: 'Gifs can be sent using pix directly through the QR code below (brazilian transfers only):',
+                        pix: 'Gifts can be sent using pix directly through the QR code below (brazilian transfers only):',
                         international: {
                             title: 'International accounts to send gifts:'
                         }
