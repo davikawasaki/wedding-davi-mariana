@@ -128,7 +128,7 @@ i18n
                     rsvp: {
                         title: 'RSVP',
                         subtitle: 'We are eagerly waiting for you! RSVP through Whatsapp with our consultancy:',
-                        wpp: 'https://api.whatsapp.com/send/?phone=5543999753000&text=I%27d%20like%20to%20RSVP%20at%20Mariana%27s%20and%20Davi%27s%20wedding%2E&app_absent=0'
+                        wpp: 'https://api.whatsapp.com/send/?phone=5543999779518&text=I%27d%20like%20to%20RSVP%20at%20Mariana%27s%20and%20Davi%27s%20wedding%2E&app_absent=0'
                     },
                     support: {
                         title: 'Our gifts list',
@@ -254,7 +254,7 @@ i18n
                     rsvp: {
                         title: 'Confirme sua presença',
                         subtitle: 'Esperamos ansiosamente por vocês! Confirme pelo Whatsapp com a nossa assessoria:',
-                        wpp: 'https://api.whatsapp.com/send/?phone=5543999753000&text=Ol%C3%A1%2C+gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+da+Mariana+e+Davi%2E&app_absent=0'
+                        wpp: 'https://api.whatsapp.com/send/?phone=5543999779518&text=Ol%C3%A1%2C+gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+da+Mariana+e+Davi%2E&app_absent=0'
                     },
                     support: {
                         title: 'Nossa Lista de Presentes',
